@@ -1,6 +1,13 @@
+:root{
+    --border-radius:15px;
+    --box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
 .attribution { 
     font-size: 11px;
     text-align: center;
+    margin-top:11rem;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
@@ -12,16 +19,16 @@ body{
 }
 .container{
     background: white;
-    border: 2px solid black; 
-    border-radius: 5px;
-    width: 40%;
+    /* border: 2px solid black;  */
+    border-radius: var(--border-radius);
+    max-width: 40%;
     margin: 0 auto;
     margin-top: 13rem;
-    padding-top: 1rem;
-    padding-left: 1rem;
-    
+    padding: 1rem;
+    box-shadow: var(--box-shadow);
 }
 .img-container{
+    position: relative;
     margin: 0rem;
     padding: 0rem;
 }
@@ -30,8 +37,8 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
-    border-radius: 5px; 
+    width: 100%;
+    border-radius: var(--border-radius); 
     padding: 0rem;
 
 }
@@ -39,13 +46,18 @@ img {
 
 h1 , p {
     text-align: center;
-    
+    font-family: sans-serif;
+    max-width: 600px;
+    white-space: pre-wrap;
+    word-wrap: nowrap;
 }
 
 
 h1 {
-   font-size:medium; 
-   font-size: 25px;
+   font-size: 23px;
+   color:#383c4f;
+   font-weight: 600;
+   
 }
 
 
@@ -59,11 +71,25 @@ h1 {
 }
 
 .text-container{
-    width: 49%;
+    width: 90%;
     margin: 0 auto;
 }
 p{
     word-break: break-all;
-    padding: rem;
+    padding: 0rem;
     font-size: 1rem;
+    padding-bottom: 0.75rem;
+    color: #c4c4c4;
+}
+@media screen and (min-width:885px) {
+    .container{
+        width: 20%;
+    }
+    .h1 {
+        font-size: 100px;
+    }
+    .text-container{
+        
+    }
+    
 }
