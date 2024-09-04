@@ -75,11 +75,12 @@ h1 {
 .text-container{
     width: 90%;
     margin: 0 auto;
+    container: inline-type;
 }
 p{
     word-break: break-all;
     padding: 0rem;
-    font-size: clamp(1rem,2.8cqi);
+    font-size: clamp(1rem,2.8cqi,1rem);
     color: #919191;
     line-height: 1.1rem; 
 }
