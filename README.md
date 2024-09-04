@@ -34,8 +34,8 @@ QR code component challenge
 
 ### Links
 
-- My Solution URL: [Add solution URL here](https://github.com/mohamedballa/my-Solution-QR-components)
-- Live Site URL: [Add live site URL here](https://mohamedballa.github.io/my-Solution-QR-components/)
+- My Solution URL:(https://github.com/mohamedballa/my-Solution-QR-components)
+- Live Site URL:(https://mohamedballa.github.io/my-Solution-QR-components/)
 
 ## My process
 I first built the structure of the page using HTML, which include the three part mention above , then styled using css.
